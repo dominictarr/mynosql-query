@@ -1,20 +1,20 @@
 {
   "name": "mynosql-query",
-  "description": "",
+  "description": "cli friendly one-line query lang for mynosql",
   "version": "0.0.0",
   "homepage": "https://github.com/dominictarr/mynosql-query",
   "repository": {
     "type": "git",
     "url": "git://github.com/dominictarr/mynosql-query.git"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
+    "tape": "~4.0.0"
   },
   "scripts": {
     "prepublish": "npm ls &&  npm test",
     "test": "set -e; for t in test/*.js; do node $t; done"
   },
   "author": "Dominic Tarr <dominic.tarr@gmail.com> (http://dominictarr.com)",
-  "license": "MIT"  
+  "license": "MIT"
 }
