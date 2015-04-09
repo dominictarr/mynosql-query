@@ -1,7 +1,7 @@
 {
   "name": "mynosql-query",
   "description": "cli friendly one-line query lang for mynosql",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "homepage": "https://github.com/dominictarr/mynosql-query",
   "repository": {
     "type": "git",
